@@ -20,9 +20,9 @@ Internt i dette modul er koden organiseret modulært for at fremme vedligeholdel
 
 * **/actions**: Indeholder Server Actions for backend-kommunikation (f.eks. `ranker-domain.actions.ts`, `ranker-keyword.actions.ts`).
 * **/components**: Huser UI-komponenter, yderligere opdelt efter ansvarsområde (f.eks. `/domain`, `/keywords`, `/graphs`, `/shared`).
-    * Eksempler: `DomainTable.tsx`, `KeywordTableWrapper.tsx`, `GeneralGraph.tsx`, `AddDomainDialog.tsx`, `AddKeywordDialog.tsx`.
+    * Eksempler: `domain-table.tsx`, `keyword-table-wrapper.tsx`, `tracker-graph.tsx`, `add-domain-dialog.tsx`, `add-keyword-dialog.tsx`.
 * **/constants**: Indeholder statiske data og konstanter (f.eks. `iso-countries.ts`).
-* **/hooks**: Specialudviklede React hooks for genanvendelig state-logik (f.eks. `useDomainTable.tsx`, `useKeywordTable.tsx`).
+* **/hooks**: Specialudviklede React hooks for genanvendelig state-logik (f.eks. `use-domain-table.tsx`, `use-keyword-table.tsx`).
 * **/store**: Global state management med Zustand (konfigureret i `index.ts`).
 * **/types**: TypeScript type-definitioner (interfaces og types i `index.ts`, `types.ts`).
 * **/utils**: Diverse hjælpefunktioner (f.eks. `helpers.ts`, `calculate-dashboard-metrics.ts`).
