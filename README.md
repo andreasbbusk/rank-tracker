@@ -37,12 +37,11 @@ Rank Tracker er designet til at levere en række centrale funktioner, der imøde
 
 * **Integration med Google Search Console (GSC)**: Importerer domæner og søgeord direkte fra GSC.
 * **Søgeordsregistrering og -tracking**: Overvåger søgeordsplaceringer, klik, visninger og Click-Through Rate (CTR).
-* **Datavisualisering over tid**: Præsenterer SEO-data gennem interaktive grafer (linje- og søjlediagrammer) og tabeller, der viser udviklingen.
+* **Datavisualisering over tid**: Præsenterer SEO-data gennem interaktive grafer og tabeller, der viser udviklingen.
 * **Sammenligning af datoperioder**: Giver mulighed for at sammenligne performance mellem forskellige tidsintervaller.
 * **Dashboard-overblik**: Tilbyder et centralt dashboard med nøgletal for hurtig status på tværs af søgeord.
-* **Filtrering og organisering**: Indeholder funktioner til at filtrere data baseret på placering, ændringer i metrikker, brand/non-brand, samt mulighed for at gruppere og tagge søgeord.
+* **Filtrering og organisering**: Indeholder funktioner til at filtrere data baseret på placering samt mulighed for at gruppere og tagge søgeord.
 * **Håndtering af domæner og søgeord**: Giver brugeren mulighed for at tilføje, redigere og slette domæner og søgeord.
-* **Optimistiske opdateringer**: Sikrer en hurtig og responsiv brugeroplevelse ved at opdatere UI'et øjeblikkeligt, før serveren har bekræftet handlinger som sletning af søgeord.
 * **Håndtering af længerevarende processer**: Nye søgeord tilføjes som baggrundsjobs, så brugeren kan fortsætte arbejdet uforstyrret, mens systemet henter indledende data. Brugeren informeres om status via notifikationer.
 
 ---
